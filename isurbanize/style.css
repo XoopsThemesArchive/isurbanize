@@ -1,0 +1,349 @@
+html {
+scrollbar-3dlight-color:#d1d7dc;
+scrollbar-arrow-color:#555555;
+scrollbar-darkshadow-color:#555555;
+scrollbar-face-color:#efefef;
+scrollbar-highlight-color:#ffffff;
+scrollbar-shadow-color:#efefef;
+scrollbar-track-color:#eaedf4;
+}
+body{
+background:#515151;
+color:#ffffff;
+font:11px Tahoma,Arial,Helvetica,sans-serif;margin:8px;
+padding:0;
+}
+td.banner{
+text-align: right;
+padding:5px;
+background-image: url('imagens/tile.png');
+height: 70px; 
+}
+td.topnav{
+color:#efefef;
+font-weight: bold;
+text-align: center;
+vertical-align: middle;	
+background-image: url('imagens/cellpic3_a.png');
+height:28px;
+width: 100%;
+border: solid 1px #999999;
+}
+a:link, a:active, a:visited { 
+font-family: Tahoma, Arial, Helvetica, sans-serif; 
+font-size: 11px; 
+text-decoration: none; 
+color: #efefef; 
+}
+a:hover { 
+text-decoration: none; 
+font-family: Tahoma, Arial, Helvetica, sans-serif; 
+font-size: 11px; 
+text-decoration: none;
+color: #ff8c00; 
+font-style: normal
+}
+.outline{
+background: #515151;
+border-left: solid 1px #333333;
+border-top: solid 1px #333333;
+border-right: solid 1px #000000;
+border-bottom: solid 1px #000000;
+}
+table { 
+width: 100%; 
+margin: 5; 
+padding: 5;
+font-size: small
+}
+table td { 
+padding: 0px; 
+border-width: 0; 
+vertical-align: top; 
+font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+td { 
+font-family: Tahoma, Arial, Helvetica, sans-serif; 
+color: #efefef; 
+font-size: 11px;
+border-top-width : 1px; 
+background: #515151;
+border-right-width : 1px; 
+border-bottom-width : 1px; 
+border-left-width : 1px;	
+}
+td.header {	
+text-align: left;
+vertical-align: middle;
+background-image: url('imagens/tile.png');
+height: 70px;	
+}
+input { 
+color : #555555;
+font-size: 11px; font-family: Tahoma, Arial, Helvetica, sans-serif; 
+}
+textarea {
+color : #555555;	
+font: normal 11px Tahoma, Arial, Helvetica, sans-serif;
+border: solid 1px #000000;
+}
+select {
+color : #000000;
+font: normal 11px Tahoma, Arial, Helvetica, sans-serif;
+border-color : #000000; 
+} 
+img { 
+border: 0px none;
+}
+ul { 
+margin: 2px; 
+padding: 2px; 
+list-style: decimal inside; 
+text-align: left;
+}
+li { 
+margin-left: 2px; 
+list-style: disc inside;
+}
+.odd { 
+background-color: #333333;
+text-align: left;
+}
+.outer { 
+background-color: #000000;
+text-align:left;
+}
+.even { 
+background-color: #333333;
+}
+th { 
+background-image: url('imagens/cellpic3_a.png'); 
+text-align: left; 
+padding: 5px;
+}
+.head { 
+color: #ffffff; 
+font-size: 11px; 
+font-weight : bold; 
+height: 25px;
+background-color: #666666;
+vertical-align: middle;	
+}
+.foot { 
+background-color: #666666; 
+padding: 3px;
+}
+.comTitle {
+color: #ffffff; 
+font-size: 11px; 
+font-weight : bold;
+background: #999999;
+height: 23px;
+text-align: left;
+padding-top: 7px;
+padding-left: 10px;	
+}
+.comText {
+padding: 20px;
+text-align: left; 		
+}
+.comUserStat {
+font-size: 10px; 
+color: #555555; 
+font-weight:bold; 
+border: 1px solid #cccccc; 
+background-color: #cccccc; 
+margin: 2px; padding: 2px;
+}
+.comUserStatCaption {
+font-weight: normal;
+}
+.comUserStatus {
+margin-left: 2px; 
+margin-top: 10px; 
+color: #006699; 
+font-weight:bold; 
+font-size: 10px;
+}
+.comUserRank {
+margin: 2px;
+}
+.comUserRankText {
+font-size: 10px;
+font-weight:bold;
+}
+.comUserRankImg {
+border: 0px none;
+}
+.comUserName {}
+.comUserImg {
+margin: 2px;
+}
+.comDate {
+color: #00396a;
+font-weight: normal; 
+font-style: italic;	 
+font-size: smaller;
+text-align: right;	
+}
+.comDateCaption {
+color: #00396a;
+font-weight: bold; 
+font-style: normal;
+text-align: right;	
+}
+div.xoopsCode { 
+background: #515151 ; 
+border: 1px solid #000000;
+color:#ffffff;	 
+font: normal 11px Tahoma, Arial, Helvetica, sans-serif; 
+padding: 0px 6px 6px 6px;
+}
+div.xoopsQuote { 
+background: #515151; 
+border: 1px solid #000000;
+color:#ffffff;	 
+font: normal 11px Tahoma, Arial, Helvetica, sans-serif; 
+padding: 0px 6px 6px 6px;
+}
+.item {
+background: #eaedf4;
+}
+.itemHead {
+color: #efefef; 
+font-size: 13px; 
+font-weight : bold;
+background-image: url(imagens/cellpic3.png);
+border: 1px solid #000000; 
+height: 18px;
+padding-top: 7px;
+padding-left: 7px;
+text-align: left;	
+}
+.itemInfo {
+text-align: right; 
+padding: 3px; 
+background-color: #333333;
+}
+.itemTitle a {
+font-size: 100%; 
+font-size: 11px;	
+font-weight: bold; 
+font-variant: small-caps; 
+color: #ffffff; 
+background-color: transparent;
+}
+.itemPoster {
+color: #efefef;
+font-size: 90%; 
+font-style: normal;
+}
+.itemPostDate {
+font-size: 90%; 
+font-style: normal;
+}
+.itemStats {
+color: #efefef;
+font-size: 90%; 
+font-style: normal;
+}
+.itemBody {
+color: #efefef;
+background-color: #666666;
+padding-left: 5px; 
+text-align: left;
+border: solid 1px #d9e2ec;
+}
+.itemText {
+color: #000000;
+margin-top: 5px; 
+margin-bottom: 5px; 
+line-height: 1.5em;
+}
+.itemFoot {
+text-align: right; 
+padding: 3px; 
+background-color: #333333;
+}
+.itemAdminLink {
+font-size: 90%;
+}
+.itemPermaLink {
+font-size: 90%;
+}
+.blockTitle {
+color: #efefef;
+font-size: 13px;
+font-weight: bold;
+text-align: center;
+background-image: url(./imagens/cellpic3.png);
+border: 1px solid #000000; 
+height: 22px;
+vertical-align: middle;
+}
+.blockTitle2 {
+color: #ffffff;
+font-weight: bold;
+font-size: 11px;
+text-align: left;	
+background-image: url(./imagens/cellpic3.png);
+border: 1px solid #999999; 
+height: 18px;
+vertical-align: top;
+padding: 1px;	
+}
+.blockContent {
+background-color: #666666; 
+padding: 5px;
+border: solid 1px #cccccc;
+line-height:133%;
+text-align: left;
+}
+.blockContent2 {
+background-color: #666666; 
+padding: 5px;
+line-height:133%;
+text-align: left;
+}
+.pointer {
+cursor: hand;
+}
+td#mainmenu a {
+color:#ff9933;
+background-color: #666666;
+display: block;
+margin: 0;
+padding: 2px;
+font-weight: bold;
+}
+td#mainmenu a:hover {
+color:#666666;
+background-color: #ffffff;
+font-weight: bold;
+}
+td#mainmenu a.menuTop {
+padding-left: 3px; 
+}
+td#mainmenu a.menuMain {
+padding-left: 3px; 
+}
+td#mainmenu a.menuSub {
+padding-left: 9px; 
+font-weight: bold;
+}
+td#usermenu a {
+color:#ff9933;
+background-color: #666666; 
+display: block; 
+margin: 0; 
+padding: 2px; 
+font-weight: bold;
+}
+td#usermenu a:hover {
+color:#666666;
+background-color: #ffffff;
+font-weight: bold;
+}
+td#usermenu a.highlight {
+background-color: #fcc;
+}
